@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title> Друзі Шабловського В.В. </title>
-</head>
 <style type="text/css">
 	h1{
 		font-size: 26px;
@@ -15,26 +14,30 @@
 	h3{
 		font-size: 18px;
 	}
-	
-	td{
+	table{
+		border: 2px solid black;
+		width: 100%;
+		border-collapse: none;
+	}
+	th,td{
 		text-align: center;
+		border: 1px solid black;
 	}
-	tr:nth-child(even) td:nth-child(even) {
+	tr:nth-child(even) /*td:nth-child(even)*/ {
 		background: grey;
 		color: tomato;
 	}
-	tr:nth-child(odd) td:nth-child(odd) {
+	/*tr:nth-child(odd) td:nth-child(odd) {
 		background: grey;
 		color: tomato;
-	}
-
-
-	</style>
+	}*/
+</style>
+</head>
 <body>
 	<center><h1>Друзі Шабловського В.В.</h1></center>
 <a href="index.html"> Назад на головну </a>
 <center><h2>Мої Друзі</h2></center>
-<table border="1" width="100%" cellpadding="5">
+<table>
 	<caption>Мої Друзі</caption>
 	<tr>
 		<th>Прізвище</th>
